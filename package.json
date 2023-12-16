@@ -8,7 +8,7 @@
     "url": "https://github.com/aihuidevelop/chapta-player.git"
   },
   "publishConfig": {
-    "@chapta:registry": "https://github.com/aihuidevelop/chapta-player.git"
+    "@chapta:registry": "https://npm.pkg.github.com"
   },
   "bugs": {
     "url": "https://github.com/aihuidevelop/chapta-player/issues",

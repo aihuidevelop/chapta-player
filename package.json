@@ -57,5 +57,8 @@
   },
   "peerDependencies": {
     "react": ">=18"
+  },
+  "dependencies": {
+    "plyr": "^3.7.8"
   }
 }

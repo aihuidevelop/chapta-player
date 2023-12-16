@@ -1,11 +1,18 @@
 {
-  "name": "chapta-player",
+  "name": "@chapta/web-player",
   "version": "0.0.1",
   "description": "Chapta Player",
-  "homepage": "https://github.com/aihuidevelop/chapta-player",
+  "homepage": "https://github.com/aihuidevelop/chapta-player#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/aihuidevelop/chapta-player.git"
+  },
+  "publishConfig": {
+    "@chapta:registry": "https://github.com/aihuidevelop/chapta-player.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aihuidevelop/chapta-player/issues",
+    "email": "weishaodaren@gmail.com"
   },
   "type": "module",
   "main": "./dist/index.cjs",

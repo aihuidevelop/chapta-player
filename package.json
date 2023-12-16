@@ -1,5 +1,5 @@
 {
-  "name": "@chapta/web-player",
+  "name": "chapta-player",
   "version": "0.0.1",
   "description": "Chapta Player",
   "homepage": "https://github.com/aihuidevelop/chapta-player#readme",
@@ -8,7 +8,7 @@
     "url": "https://github.com/aihuidevelop/chapta-player.git"
   },
   "publishConfig": {
-    "@chapta:registry": "https://github.com/aihuidevelop/chapta-player.git"
+    "@chapta:registry": "https://npm.pkg.github.com"
   },
   "bugs": {
     "url": "https://github.com/aihuidevelop/chapta-player/issues",

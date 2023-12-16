@@ -1,0 +1,11 @@
+:root {
+    --plyr-color-main: #00ADEA;
+    --plyr-control-radius: 6px;
+    --plyr-tooltip-background: #00ADEA;
+    --plyr-tooltip-color: #FFFFFF;
+}
+
+ /* 屏幕中间 播放按钮 */
+.plyr__control--overlaid {
+    background-color: var(--plyr-color-main) !important;
+}

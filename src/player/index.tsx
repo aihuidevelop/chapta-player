@@ -1,17 +1,23 @@
-import { useEffect, useRef } from 'react';
+import type { ReactNode } from 'react';
+import { useEffect, useRef, memo } from 'react';
 
 import Plyr from 'plyr';
 
 import zhCN from './i18n/zhCN';
+import './styled.css';
 
 import 'plyr/dist/plyr.css';
 
+type PlayerProps = Plyr.Options & {
+  source: Plyr.SourceInfo;
+};
+
 /**
- * View
- * @description Playground
+ * Component
+ * @description Chapta 播放器
  * @returns {JSX.Element}
  */
-const Playground = () => {
+const Player = memo(({ source }: PlayerProps): ReactNode => {
   /**
    * Ref
    */
@@ -27,11 +33,10 @@ const Playground = () => {
     if (!videoRef.current) return;
 
     /**
-     * @link https://github.com/sampotts/plyr/blob/master/src/js/config/defaults.js
+     * @see https://github.com/sampotts/plyr/blob/master/src/js/config/defaults.js
      */
     player.current = new Plyr(videoRef.current, {
       i18n: zhCN,
-      autopause: true,
       tooltips: { controls: true },
       controls: [
         'play-large',
@@ -56,14 +61,19 @@ const Playground = () => {
         global: true,
       },
     });
-
-    player.current.source = {
-      type: 'video',
-      title: '大鸡吧',
-      sources: [{ src: 'https://static.chapta.com/picture/video/100038019/100038019.mp4', type: 'video/mp4' }],
-      poster: 'https://static.chapta.com/picture/image/batch/4aa79a06-f6e2-4d84-8545-255fa273d7ad-u1/2.jpg',
-    };
   }, []);
+
+  /**
+   * Effect
+   * @description 依赖传入的资源
+   * @returns {void}
+   */
+  useEffect(() => {
+    if (!player.current) return;
+    if (!source) return;
+
+    player.current.source = source;
+  }, [source]);
 
   /**
    * Effect
@@ -78,6 +88,6 @@ const Playground = () => {
   }, []);
 
   return <video ref={videoRef} />;
-};
+});
 
-export default Playground;
+export default Player;

@@ -9,3 +9,8 @@
 .plyr__control--overlaid {
     background-color: var(--plyr-color-main) !important;
 }
+
+/* 播放器 */
+.plyr {
+    height: 100% !important;
+}

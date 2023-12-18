@@ -1,5 +1,5 @@
-import type { PlayerProps } from './player';
+import type { PlayerProps, MediaType } from './player';
 import Player from './player';
 
 export default Player;
-export type { PlayerProps };
+export type { PlayerProps, MediaType };

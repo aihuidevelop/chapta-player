@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { useEffect, useRef, memo } from 'react';
 
+import type { MediaType } from 'plyr';
 import Plyr from 'plyr';
 
 import zhCN from './i18n/zhCN';
@@ -91,4 +92,4 @@ const Player = memo(({ source }: PlayerProps): ReactNode => {
 });
 
 export default Player;
-export type { PlayerProps };
+export type { PlayerProps, MediaType };

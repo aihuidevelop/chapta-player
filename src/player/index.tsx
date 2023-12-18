@@ -91,3 +91,4 @@ const Player = memo(({ source }: PlayerProps): ReactNode => {
 });
 
 export default Player;
+export type { PlayerProps };

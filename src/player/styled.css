@@ -10,7 +10,6 @@
     background-color: var(--plyr-color-main) !important;
 }
 
-/* 播放器 */
-.plyr {
-    height: 100% !important;
+.plyr--video {
+    height: 100%;
 }

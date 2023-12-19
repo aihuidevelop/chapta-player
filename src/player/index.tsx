@@ -4,6 +4,7 @@ import { useEffect, useRef, memo } from 'react';
 import type { MediaType } from 'plyr';
 import Plyr from 'plyr';
 
+import { PlayerIconUrl } from './constants';
 import zhCN from './i18n/zhCN';
 import './styled.css';
 
@@ -38,6 +39,7 @@ const Player = memo(({ source }: PlayerProps): ReactNode => {
      */
     player.current = new Plyr(videoRef.current, {
       i18n: zhCN,
+      iconUrl: PlayerIconUrl,
       tooltips: { controls: true },
       controls: [
         'play-large',

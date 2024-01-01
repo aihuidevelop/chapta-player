@@ -33,7 +33,7 @@ devDependencies:
     version: 8.56.0
   eslint-config-polaris:
     specifier: ^6.1.0
-    version: 6.1.0(@typescript-eslint/eslint-plugin@6.15.0)(@typescript-eslint/parser@6.15.0)(eslint-config-prettier@9.1.0)(eslint-plugin-import@2.29.1)(eslint-plugin-prettier@5.1.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.2)(eslint@8.56.0)(prettier@3.1.1)(typescript@5.3.3)
+    version: 6.2.0(@typescript-eslint/eslint-plugin@6.15.0)(@typescript-eslint/parser@6.15.0)(eslint-config-prettier@9.1.0)(eslint-plugin-import@2.29.1)(eslint-plugin-prettier@5.1.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.2)(eslint@8.56.0)(prettier@3.1.1)(typescript@5.3.3)
   eslint-config-prettier:
     specifier: ^9.1.0
     version: 9.1.0(eslint@8.56.0)
@@ -1349,8 +1349,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-polaris@6.1.0(@typescript-eslint/eslint-plugin@6.15.0)(@typescript-eslint/parser@6.15.0)(eslint-config-prettier@9.1.0)(eslint-plugin-import@2.29.1)(eslint-plugin-prettier@5.1.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.2)(eslint@8.56.0)(prettier@3.1.1)(typescript@5.3.3):
-    resolution: {integrity: sha512-ye4ZgFwQyvuM2RXTLCEuhIfLy+sCdGyCy3wkjlJ1/BIqQyA6kbTZz/ZQpWhDLLGRDenhsLxtStC7+Q+OflO3aw==}
+  /eslint-config-polaris@6.2.0(@typescript-eslint/eslint-plugin@6.15.0)(@typescript-eslint/parser@6.15.0)(eslint-config-prettier@9.1.0)(eslint-plugin-import@2.29.1)(eslint-plugin-prettier@5.1.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-react@7.33.2)(eslint@8.56.0)(prettier@3.1.1)(typescript@5.3.3):
+    resolution: {integrity: sha512-W5lvLnFkJM5WRmFwI/iJ1u33DxImTBl0bttHFXGKy8AwcZXCjrlmqWorigEOm2jNEXJsLEo8MOIWZNskBqwMXg==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': 6.x
       '@typescript-eslint/parser': 6.x

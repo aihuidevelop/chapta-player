@@ -1,6 +1,6 @@
 {
   "name": "chapta-player",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "description": "⭐️ 奇布塔播放器",
   "homepage": "https://github.com/aihuidevelop/chapta-player#readme",
   "repository": {
@@ -43,14 +43,14 @@
   "author": "weishaodaren@gmail.com",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^20.11.24",
-    "@types/react": "^18.2.61",
-    "@types/react-dom": "^18.2.19",
-    "@typescript-eslint/eslint-plugin": "^7.1.0",
-    "@typescript-eslint/parser": "^7.1.0",
+    "@types/node": "^20.11.25",
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@typescript-eslint/eslint-plugin": "^7.1.1",
+    "@typescript-eslint/parser": "^7.1.1",
     "@vitejs/plugin-react-swc": "^3.6.0",
     "eslint": "^8.57.0",
-    "eslint-config-polaris": "^6.10.0",
+    "eslint-config-polaris": "^6.11.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-prettier": "^5.1.3",
@@ -61,7 +61,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tsup": "^8.0.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.2"
   },
   "peerDependencies": {
     "react": ">=18"
